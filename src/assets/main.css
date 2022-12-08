@@ -1,0 +1,44 @@
+div { outline-style:none;}
+
+html, body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+    background-color: white;
+}
+
+/*this is standard for w3d - */
+#renderCanvas {
+    touch-action: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* mobile webkit */
+    vertical-align: middle;
+}
+
+#canvas-wrapper{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+/*for fps counter*/
+#fps {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    border: 2px solid red;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    bottom: 40px;
+    right: 10px;
+    width: 60px;
+    height: 30px;
+
+}
